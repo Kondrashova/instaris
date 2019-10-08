@@ -1,0 +1,457 @@
+@media only screen and (max-width : 1050px) {
+	.top_header_block {
+		margin-bottom: 100px;
+	}
+	.bottom_header_block h1 {
+		font-size: 85px;
+		line-height: 80px;
+	}
+	.bottom_header_block p {
+		font-size: 32px;
+		line-height: 35px;
+	}
+	.header::before {
+		transform: translate(-14%, 0);
+	}
+	.we_work_bl {
+		margin: 0;
+	}
+	h2.all_text {
+		font-size: 37px;
+		line-height: 37px;
+	}
+	.clients_text_block p {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.clients_text_block span {
+		font-size: 25px;
+		line-height: 28px;
+	}
+	.opportunities_text_glav h2.all_text {
+		line-height: 38px;
+		margin-bottom: 6px;
+	}
+	.opportunities_block h2.all_text {
+		line-height: 38px;
+	}
+	.myself_block h2.all_text {
+		line-height: 38px;
+	}
+}
+@media only screen and (max-width : 1000px) {
+	
+	.bottom_header_block {
+		max-width: 100%;
+		width: 100%;
+		padding-bottom: 200px;
+	}
+	.bottom_header_block h1 br {
+		display: none;
+	}
+	.bottom_header_block p br {
+		display: block;
+	}
+	.header::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: -385px;
+		transform: translate(-45%, 0);
+		background-size: 900px;
+		background-image: url(../img/header_phone_icon_mob.png);
+	}
+	.clients_block h2.all_text br {
+		display: block;
+	}
+	.clients_text_block span {
+		margin-bottom: 20px;
+	}
+	.header {
+		position: relative;
+		padding-top: 22px;
+		padding-bottom: 220px;
+	}
+	.steps_bl .icon {
+		position: static;
+		width: 100%;
+		text-align: center;
+	}
+	.steps_text_block {
+		max-width: 390px;
+		width: 100%;
+		margin-top: 25px;
+	}
+	.opportunities {
+		padding-top: 45px;
+		padding-bottom: 50px;
+	}
+	.steps_bl {
+		margin: 0px 55px 55px 55px;
+	}
+	.item_opportunities {
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.right_item_opportunities .item_opportunities {
+		margin-bottom: 20px;
+	}
+	.cases_block {
+		position: static;
+	}
+	.slick-slide.slick-active > .slider_item {
+		opacity: 1;
+		transform: scale(1);
+		opacity: 1;
+	}
+	.slick-slide > .slider_item {
+		z-index: 1;
+		opacity: 1;
+	}
+	.myself_text_block {
+		margin-bottom: 20px;
+	}
+	.myself_block .knob {
+		margin-bottom: 45px;
+	}
+	.footer_bl {
+		justify-content: space-around;
+		margin-left: 0;
+	}
+	.item_we_work {
+		max-width: 49%;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 45px;
+	}
+	.item_we_work_text p br {
+		display: none;
+	}
+	.item_footer.item_footer1 {
+		width: 100%;
+		max-width: 100%;
+		margin-right: 0;
+		order: 3;
+		text-align: center;
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width : 730px) {
+	.pop_up {
+		width: 90%;
+		background: #fff;
+		padding: 25px 30px;
+		border-radius: 25px;
+	}
+}
+@media only screen and (max-width : 700px) {
+	.top_header_block {
+		margin-bottom: 35px;
+	}
+	.bottom_header_block p {
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.bottom_header_block h1 {
+		font-size: 75px;
+		line-height: 75px;
+		margin-bottom: 0;
+	}
+	.header::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: -385px;
+		transform: translate(-45%, 0);
+		background-size: 780px;
+		background-image: url(../img/header_phone_icon_mob.png);
+	}
+	.bottom_header_block {
+		padding-bottom: 155px;
+	}
+	h2.all_text {
+		font-size: 33px;
+		line-height: 35px;
+	}
+	.btn {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.item_we_work {
+		max-width: 100%;
+		width: 100%;
+	}
+	.myself_text_block {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
+@media only screen and (max-width : 650px) {
+	.btn {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.btn.btn1::before {
+		top: 12px;
+	}
+	nav.main_nav.main_nav_toggle {
+		top: 90px;
+	}
+	ul.list_form li p {
+		width: 100%;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.pop_form input {
+		width: 100%;
+	}
+	.pop_form ul.list_form li {
+		margin-bottom: 20px;
+	}
+	h2.all_text br {
+		display: none;
+	}
+	.icon_slider {
+		position: relative;
+		text-align: center;
+		left: 50%;
+		transform: translate(-42%, -7%);
+	}
+	.slider_item_text_block {
+		max-width: 100%;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		text-align: center;
+		margin-top: -25px;
+		padding: 0;
+		
+	}
+	.slick-slide img {
+		display: inline-block;
+		text-align: center;
+	}
+	.slider_item {
+		width: 100%;
+	}
+	.slider_item {
+		position: relative;
+		width: 100%;
+		min-height: 362px;
+		padding: 20px 15px;
+		background-image: none;
+		border: 10px solid #523a81;
+	}
+	
+	.item_footer {
+		max-width: 100%;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 35px;
+		order: 3;
+	}
+	.footer {
+		padding-top: 62px;
+		padding-bottom: 20px;
+	}
+	.cases h2.all_text {
+		margin-bottom: 10px;
+	}
+	.cases_block {
+		padding-top: 35px;
+		padding-bottom: 65px;
+	}
+	.steps_bl .icon {
+		position: static;
+		width: 250px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 600px) {
+	.item_tariffs {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width : 550px) {
+	.header {
+		position: relative;
+		padding-top: 22px;
+		padding-bottom: 70px;
+	}
+	.bottom_header_block h1 {
+		font-size: 50px;
+		line-height: 65px;
+		margin-bottom: 0;
+	}
+	.bottom_header_block p {
+		font-size: 22px;
+		line-height: 25px;
+	}
+	.top_header_block {
+		margin-bottom: 15px;
+	}
+	.header::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		width: 800px;
+		height: 465px;
+		bottom: -155px;
+		transform: translate(-44%, 0);
+		background-size: 520px;
+		background-image: url(../img/header_phone_icon_mob.png);
+	}
+	h2.all_text {
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.clients_text_block p {
+		font-size: 19px;
+		line-height: 23px;
+	}
+	.clients_text_block span {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.clients_text_block span br {
+		display: none;
+	}
+	.steps_bl {
+		margin: 0px 0 55px 0;
+	}
+	.steps_text_block ul li {
+		padding-left: 30px;
+		margin-bottom: 36px;
+	}
+	.steps_text_block ul li br {
+		display: none;
+	}
+	.myself_block h2.all_text {
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+	.opportunities_block h2.all_text {
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+	.myself_text_block {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.item_form_footer {
+		max-width: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	.item_form_footer .form .button.btn {
+		width: 100%;
+		padding: 5px 15px 5px 15px;
+	}
+	.button.btn::before {
+		display: none;
+	}
+	.icon_slider {
+		position: relative;
+		text-align: center;
+		left: 50%;
+		transform: translate(-42%, -7%);
+	}
+	.slider_item_text_block {
+		max-width: 100%;
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		text-align: center;
+		margin-top: -25px;
+		padding: 0;
+		min-height: 200px;
+	}
+	.slick-slide img {
+		display: inline-block;
+		text-align: center;
+	}
+	.pop_up b {
+		font-size: 19px;
+		line-height: 20px;
+	}
+	.pop_up {
+		padding: 20px 15px;
+	}
+	.opportunities_text_glav h2.all_text {
+		line-height: 30px;
+	}
+	.main_nav ul li a {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.profile {
+		position: absolute;
+		right: 0;
+		bottom: -17px;
+	}
+	.slick-slide > .slider_item {
+		min-height: 698px;
+	}
+	.slider_item_text_block .icon {
+		min-height: 151px;
+	}
+}
+@media only screen and (max-width : 350px) {
+	.btn {
+		font-size: 12px;
+		line-height: 13px;
+	}
+	.logo svg {
+		width: 120px;
+	}
+	.bottom_header_block h1 {
+		font-size: 45px;
+		line-height: 60px;
+	}
+	.bottom_header_block p {
+		font-size: 19px;
+		line-height: 22px;
+	}
+	.header::before {
+		transform: translate(-41%, 0);
+	}
+	.clients_text_block p {
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.clients_text_block span {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.opportunities_block h2.all_text {
+		line-height: 25px;
+	}
+	h2.all_text {
+		font-size: 23px;
+		line-height: 25px;
+	}
+}
+
